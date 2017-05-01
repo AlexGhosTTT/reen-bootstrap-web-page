@@ -1,0 +1,662 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>css-frameworks</title>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <script src="assets/jquery-3.2.1.min.js"></script>
+
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <link href="assets/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" />
+
+    <link href="css/fonts.css" rel="stylesheet" />
+
+    <link href="css/styles.min.css" rel="stylesheet" />
+    <link href="css/media.min.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle collapsed menu-btn" data-toggle="collapse" data-target="#top-menu">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </button>
+
+                        <a class="navbar-brand logo" href="#">
+                            <img src="img/logo.png" alt="logo" />
+                        </a>
+                    </div>
+
+
+                    <div class="collapse navbar-collapse" id="top-menu">
+
+                        <ul class="menu text-uppercase ">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Mega Menu</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li class="visible-lg-inline-block">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <a href="#">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <div class="container-fluid hidden-xs carousel-container">
+
+            <div class="row">
+
+                <div id="first-carousel" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-indicators-container hidden">
+
+                        <div>
+
+                            <ol class="carousel-indicators">
+                                <li data-target="#first-carousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#first-carousel" data-slide-to="1"></li>
+                                <li data-target="#first-carousel" data-slide-to="2"></li>
+                                <li data-target="#first-carousel" data-slide-to="3"></li>
+                                <li data-target="#first-carousel" data-slide-to="4"></li>
+                            </ol>
+                        </div>
+
+
+                    </div>
+
+                    <div class="carousel-inner" role="listbox">
+
+                        <div class="item active">
+
+                            <img src="img/item1.png" />
+
+                            <div class="carousel-caption carousel-frame carousel-frame-1">
+                                <h1 class="text-uppercase text-center">Made for Designers</h1>
+                                <p class="text-center">Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.</p>
+                                <button class="btn btn-primary text-uppercase" type="button">Get started now</button>
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <img src="img/item2.png" />
+
+                            <div class="carousel-caption carousel-frame carousel-frame-2">
+                                <h1 class="text-uppercase text-right">Fresh and beautiful design</h1>
+                                <p class="text-right">REEN is designed to showcase your talent and put your work in the forefront.  Professionally use of typography and layout that fits your content.</p>
+                                <button class="btn btn-primary text-uppercase pull-right" type="button">Get started now</button>
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <img src="img/item3.png" />
+
+                            <div class="carousel-caption carousel-frame carousel-frame-3">
+                                <h1 class="text-uppercase text-left carousel-frame-3-h1-1">Clean and</h1>
+                                <h1 class="text-uppercase text-left carousel-frame-3-h1-2">reusable code</h1>
+                                <p class="text-left">The clean code allows you to easily copy code blocks from content modules and past them in different places or layouts.</p>
+                                <button class="btn btn-primary text-uppercase pull-left" type="button">Get started now</button>
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <img src="img/item4.png" />
+
+                            <div class="carousel-caption carousel-frame carousel-frame-4">
+                                <h1 class="text-uppercase text-right carousel-frame-4-h1-1">Just focus on</h1>
+                                <h1 class="text-uppercase text-right carousel-frame-4-h1-2">your creativity</h1>
+                                <p class="text-right">Take a break from messing around with heavy coding and spend your time brainstorming ideas for your next project.</p>
+                                <button class="btn btn-primary text-uppercase pull-right" type="button">Get started now</button>
+                            </div>
+
+                        </div>
+
+                        <div class="item">
+
+                            <img src="img/item5.png" />
+
+                            <div class="carousel-caption carousel-frame carousel-frame-5">
+                                <h1 class="text-uppercase text-center">Showcase your content</h1>
+                                <p class="text-center">With REEN you have the possibility to create websites for various contents quickly and easily. Now it's up to you!</p>
+                                <button class="btn btn-primary text-uppercase" type="button">Get started now</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <a class="left carousel-control hidden" href="#first-carousel" role="button" data-slide="prev">
+
+                        <div class="custom-carousel-control custom-carousel-control-left">
+                            <div>
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                            </div>
+                        </div>
+
+                    </a>
+
+                    <a class="right carousel-control hidden" href="#first-carousel" role="button" data-slide="next">
+                        <div class="custom-carousel-control custom-carousel-control-right">
+                            <div>
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <section class="about-us">
+
+        <div class="container">
+
+            <div class="row ">
+
+                <div class="col-md-12 text-center">
+
+                    <div class="head-content">
+                        <h2>Beautiful. Clean. Responsive.</h2>
+                        <p>REEN is a high-quality solution for those who want a beautiful website in no time. It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it doesn't matter. Your content will always looks its absolute best.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 padding-10px">
+
+                    <div class="col-md-3 nopadding">
+                        <p class="content-icon content-icon-fix-0">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </p>
+                    </div>
+
+                    <div class="col-md-9 nopadding">
+                        <div class="content">
+                            <h3>Passion</h3>
+                            <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 padding-10px">
+                    <div class="col-md-3 nopadding">
+                        <p class="content-icon content-icon-fix-1"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></p>
+                    </div>
+
+                    <div class="col-md-9 nopadding">
+                        <div class="content content-fix-1 ">
+                            <h3>Creativity</h3>
+                            <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 padding-10px">
+
+                    <div class="col-md-3 nopadding">
+                        <p class="content-icon content-icon-fix-2">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </p>
+                    </div>
+
+                    <div class="col-md-9 nopadding">
+                        <div class="content content-fix-2 ">
+                            <h3>Quality</h3>
+                            <p>Magnis modipsae que lib voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam core posae volor remped modis volor.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="latest-works">
+
+        <div class="container nopadding">
+
+            <div class="row ">
+
+                <div class="col-md-12 text-center">
+
+                    <div class="head-content head-content-2">
+                        <h2>Check out our latest works</h2>
+                        <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 text-center">
+
+                    <div class="latest-works-block clearfix">
+
+                        <div class="latest-works-block-img">
+
+                            <div class="img_wrap">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+
+                            <img src="img/bl1.png" />
+                        </div>
+
+                        <div class="latest-works-block-content">
+                            <h3>Grand Motel gets an identity brushup</h3>
+                            <p>Identity</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 text-center">
+
+                    <div class="latest-works-block clearfix">
+
+                        <div class="latest-works-block-img">
+
+                            <div class="img_wrap">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </div>
+
+                            <img src="img/bl2.png" />
+                        </div>
+
+                        <div class="latest-works-block-content">
+                            <h3>Fresh branding for a creative startup</h3>
+                            <p>Identity</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="m-top-80 clearfix">
+                    <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+
+                        <div class="latest-works-block-img tabletfix">
+
+                            <div class="n_img_wrap">
+                                <h3>Astor & Yancy</h3>
+                                <p>Identity</p>
+                            </div>
+
+                            <img src="img/item1-s2.png" />
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+
+                        <div class="latest-works-block-img tabletfix">
+
+                            <div class="n_img_wrap">
+                                <h3>Astor & Yancy</h3>
+                                <p>Identity</p>
+                            </div>
+
+                            <img src="img/item2-s2.png" />
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+
+                        <div class="latest-works-block-img tabletfix">
+
+                            <div class="n_img_wrap">
+                                <h3>Astor & Yancy</h3>
+                                <p>Identity</p>
+                            </div>
+
+                            <img src="img/item3-s2.png" />
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-6 text-center">
+
+                        <div class="latest-works-block-img tabletfix">
+
+                            <div class="n_img_wrap">
+                                <h3>Astor & Yancy</h3>
+                                <p>Identity</p>
+                            </div>
+
+                            <img src="img/item4-s2.png" />
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="row">
+
+                <div class="second-carousel clearfix">
+
+                    <div class="col-md-offset-5 col-md-2 text-center">
+
+
+                        <a class="fake-button fake-button-left hidden" role="button">
+
+                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+
+                        </a>
+
+
+                        <ol class="carousel-indicators ">
+                            <li></li>
+                            <li class="active"></li>
+                            <li></li>
+                        </ol>
+
+
+                        <a class="fake-button fake-button-right hidden" role="button">
+
+                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+                        </a>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container">
+
+            <div class="row ">
+
+                <div class="col-md-12 text-center">
+
+                    <div class="head-content head-content-2 head-content-3">
+                        <h2>Want to work with us?</h2>
+                        <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+                    </div>
+
+                    <button class="btn btn-primary btn-want-to-work text-uppercase" type="button" data-toggle="modal" data-target="#myModal">Get in touch</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="main-footer">
+
+        <div class="container nopadding">
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 col-sm-6 clearfix">
+                    <div class="footer-cell">
+                        <div class="footer-cell-1">
+                            <h4 class="text-uppercase">Who we are</h4>
+                            <img src="img/logoSm.png" />
+                            <p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+                            <a href="#">
+                                More about us
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 clearfix">
+                    <div class="footer-cell">
+                        <div class="footer-cell-2">
+
+                            <h4 class="text-uppercase">Latest works</h4>
+
+                            <div class="cntnt pull-left">
+
+                                <div class="img_wrap m0">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+
+                                <img src="img/lw1.png" />
+                            </div>
+
+                            <div class="cntnt pull-left">
+
+                                <div class="img_wrap m0">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+
+                                <img src="img/lw2.png" />
+                            </div>
+
+                            <div class="cntnt pull-left">
+
+                                <div class="img_wrap m0">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+
+                                <img src="img/lw3.png" />
+                            </div>
+
+                            <div class="cntnt pull-left">
+
+                                <div class="img_wrap m0">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </div>
+
+                                <img src="img/lw4.png" />
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 clearfix">
+                    <div class="footer-cell">
+                        <div class="footer-cell-3">
+                            <h4 class="text-uppercase">Get in touch</h4>
+                            <p>Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                        84 Street, City, State 24813
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                                        +00 (123) 456 78 90
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        info@reen.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 clearfix">
+                    <div class="footer-cell">
+                        <div class="footer-cell-4">
+                            <h4 class="text-uppercase">Free updates</h4>
+                            <p>Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
+
+                            <div class="input-outer-container clearfix">
+
+                                <div class="input-inner-container">
+
+                                    <div class="input-group">
+
+                                        <input type="text" class="form-control pull-left " placeholder="Enter your email address">
+
+                                        <button class="btn btn-primary pull-right text-uppercase" type="button">Subscribe</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="main-footer-row-2">
+
+            <div class="container nopadding">
+
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-5 clearfix">
+                        <div class="all-rights-reserved">
+                            <p>© 2014 REEN. All rights reserved.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-5 col-md-offset-4 col-sm-7 hidden-xs clearfix">
+
+                        <ul class="footer-menu list-unstyled pull-right">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <h4 class="modal-title">Callback</h4>
+
+                </div>
+
+                <div class="modal-body clearfix">
+
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id semper elit, ac vulputate urna.</h5>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="tel">Telephone</label>
+                            <input type="tel" class="form-control" id="tel" placeholder="Telephone">
+
+                        </div>
+
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Check me out
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary pull-right" data-dismiss="modal">Submit</button>
+                        <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Close</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

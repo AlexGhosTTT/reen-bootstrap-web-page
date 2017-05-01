@@ -1,0 +1,347 @@
+﻿/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+    .container {
+        padding: 0 15px !important;
+    }
+
+    [class^="col-"], [class*=" col-"] {
+        padding: 0 15px !important;
+    }
+
+
+
+    /*SLIDER*/
+    .carousel-frame {
+
+        h1 {
+            font-size: 54px;
+        }
+
+        p {
+            margin-bottom: 50px;
+        }
+
+        button {
+            width: 197px;
+            height: 44px;
+        }
+    }
+
+    .carousel-frame-1 {
+        h1 {
+            margin-bottom: 25px;
+        }
+
+        button {
+            margin-bottom: 55px;
+        }
+    }
+
+    .carousel-frame-2 {
+        h1 {
+            padding-left: 100px;
+            line-height: 66px;
+            margin-bottom: 25px;
+        }
+
+        p {
+            padding-left: 100px;
+        }
+
+        button {
+            margin-bottom: 70px;
+        }
+    }
+
+    .carousel-frame-3 {
+        h1 {
+            line-height: 100px;
+        }
+
+        .carousel-frame-3-h1-1 {
+            left: -156px;
+        }
+
+        .carousel-frame-3-h1-2 {
+            left: -85px;
+        }
+
+        p {
+            padding-right: 100px;
+        }
+
+        button {
+            margin-bottom: 25px;
+        }
+    }
+
+    .carousel-frame-4 {
+
+        h1 {
+            line-height: 100px;
+        }
+
+        .carousel-frame-4-h1-1 {
+            left: 98px;
+        }
+
+        .carousel-frame-4-h1-2 {
+            left: 60px;
+        }
+
+        p {
+            padding-left: 100px;
+        }
+
+        button {
+            margin-bottom: 25px;
+        }
+    }
+
+    .carousel-frame-5 {
+        h1 {
+            margin-bottom: 25px;
+            padding: 0 50px;
+        }
+
+        p {
+            padding: 0 120px;
+            margin-bottom: 50px;
+        }
+
+        button {
+            margin-bottom: 130px;
+        }
+    }
+    /*END-SLIDER*/
+
+
+
+    /*FOOTER*/
+
+    .footer-cell {
+        margin: 10px 0 0 0;
+    }
+
+    /*END-FOOTER*/
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+    /*SLIDER*/
+
+    .carousel-frame {
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    }
+
+    .carousel-frame-1 {
+
+        p {
+            padding: 0 40px;
+        }
+    }
+
+    .carousel-frame-2 {
+        h1 {
+            line-height: 40px;
+        }
+    }
+
+    .carousel-frame-3 {
+        h1 {
+            line-height: 60px;
+        }
+
+        .carousel-frame-3-h1-1 {
+            left: -141px;
+        }
+    }
+
+    .carousel-frame-4 {
+
+        h1 {
+            line-height: 60px;
+        }
+
+        .carousel-frame-4-h1-1 {
+            left: 90px;
+        }
+    }
+
+    .carousel-frame-5 {
+        h1 {
+            padding: 0;
+        }
+
+        p {
+            padding: 0 60px;
+        }
+
+        button {
+            margin-bottom: 100px;
+        }
+    }
+
+    /*END-SLIDER*/
+
+    /*HEADER*/
+
+    .menu {
+
+        li {
+            padding-left: 15px;
+
+            &:first-child {
+                margin-left: 15px;
+            }
+        }
+    }
+
+    /*END-HEADER*/
+
+    .head-content p {
+        padding: 0;
+    }
+
+    .content-icon-fix-1, .content-icon-fix-2 {
+        padding-left: 10PX;
+    }
+
+    .content-fix-1, .content-fix-2 {
+        padding-left: 0;
+    }
+
+    .latest-works-block {
+        margin-bottom: 25px;
+    }
+
+    /*FOOTER*/
+
+    .footer-cell {
+        margin: 0;
+    }
+
+    /*END-FOOTER*/
+}
+
+/* Small Devices, Tablets (768 - BUG)*/
+@media only screen and (max-width: 767px) {
+
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+
+    /*HEADER*/
+
+    nav {
+        height: 70px;
+        line-height: 50px;
+        margin: 0;
+    }
+
+    .logo {
+        padding-top: 15px;
+    }
+
+    .carousel-container {
+        margin-top: 71px;
+    }
+
+    .menu-btn {
+        margin: 0;
+        padding: 0;
+        padding-right: 15px;
+        padding-top: 15px;
+
+        i {
+            font-size: 24px;
+            color: #506a85;
+
+            &:hover, :focus, :active {
+                color: #00bc9c;
+            }
+        }
+    }
+
+    #top-menu {
+        background-color: white;
+        max-height: 365px !important;
+    }
+
+    .menu {
+        padding: 0;
+
+        li {
+            display: block;
+            margin: 0 !important;
+            padding: 0 !important;
+
+            &:last-child {
+                display: none;
+            }
+
+            a {
+                display: block;
+                padding-left: 20px;
+                text-align: center;
+
+                &:focus {
+                    background-color: #00bc9c;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    /*END-HEADER*/
+
+    .tabletfix {
+        margin: 15px 0;
+    }
+
+    /*FOOTER*/
+
+    .footer-cell {
+        margin: 0;
+    }
+
+    /*END-FOOTER*/
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+}
